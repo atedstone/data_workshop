@@ -68,12 +68,20 @@ Bonus: statistical data visualization...seaborn, http://seaborn.pydata.org/
 
 Bonus: statsmodels, http://www.statsmodels.org/stable/index.html
 
+Bonus: geopandas, used for geographic (vector) features, https://geopandas.org
+
 
 ### matplotlib
 
 This package plots figures from various data sources - numpy arrays, pandas DataFrames, images ...
 
 http://chris35wills.github.io/courses/PythonPackages_matplotlib/README_matplotlib/
+
+
+### Putting our first analysis script together
+
+Work through calibrate_ec.py step by step.
+
 
 
 ### NetCDF files and xarray
