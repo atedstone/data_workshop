@@ -44,6 +44,21 @@ https://github.com/atedstone/ebmodel/blob/master/run_ebmodel_Samplemet.py
 
 This script runs a glacier surface energy balance model for some timesteps. It uses two dictionaries to store (1) the energy fluxes and (2) the melt fluxes. Each of these two dictionaries uses date/time keys to store the data for each timestep. Each timestep contains a nested dictionary with the fluxes for that timestep.
 
+Looping through lists and building dictionaries:
+
+```python
+a = {}
+b = ['column1', 'column2']
+
+# The 'matlab'-like way
+for i in range(0,len(b)):
+    a[b[i]] = 0
+
+# The Pythonic way
+for item in b:
+    a[item] = 1
+```
+
 
 ### Functions
 
