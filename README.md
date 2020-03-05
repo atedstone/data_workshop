@@ -35,12 +35,14 @@ Some tips:
 ### Data structures
 
 Lists: http://chris35wills.github.io/courses/Intermediate_python/lists/
+
 Dictionaries: http://chris35wills.github.io/courses/Intermediate_python/dictionaries/
 
 
 ### Functions
 
 Are we familiar with these? If not:
+
 http://chris35wills.github.io/courses/Intermediate_python/functions/
 
 
@@ -50,7 +52,9 @@ Cover imports and 'dot' notation
 
 Cover imports `as`
 
-Writing your own modules: http://chris35wills.github.io/courses/Intermediate_python/modules/
+Writing your own modules: 
+
+http://chris35wills.github.io/courses/Intermediate_python/modules/
 
 
 ### numpy
@@ -97,20 +101,11 @@ https://github.com/atedstone/Bristol_Geography_Python/tree/master/xarray
 
 Sample data: https://www.dropbox.com/sh/ztxewjjmya3t246/AAAV2rYIiN8mqCV8M-WJOc4Ga?dl=0
 
-First you may want to take a look at the contents of the file. Use a utility like Panopoly, or the `ncdump` command at the command line:
+First you may want to take a look at the contents of the file. Use the `ncdump` command at the command line (or other visual options like Panopoly can be downloaded from elsewhere):
 
 ```bash
 $ ncdump -h KAN_M_hour_v03.nc
 ```
-
-
-### Plotting maps
-
-Beyond the scope of this session, but have a look at:
-
-cartopy, https://scitools.org.uk/cartopy/docs/latest/
-
-(basemap module, https://matplotlib.org/basemap/ is deprecated so should not be used in new scripts)
 
 
 ### Specialist GIS and remote sensing packages
@@ -121,6 +116,7 @@ Beyond the scope of today. In particular, look at:
 * (GDAL) (for raster data)
 * geopandas (for vector data), plus shapely, fiona
 * scikit-image (for raster data)
+* cartopy (map plotting)
 
 
 
