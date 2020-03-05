@@ -4,6 +4,8 @@
 
 http://chris35wills.github.io/courses/pydata_stack/
 
+Make sure that everyone's environments are working.
+
 
 ## Other methods of installing ...
 
@@ -16,7 +18,11 @@ Use of conda-forge
 
 ## Python
 
+The Software Carpentry basic introduction is here:
+
 http://swcarpentry.github.io/python-novice-inflammation/
+
+However, this begins with numPy as the main building block, which we are skipping today in favour of more stuff on Pandas.
 
 Some tips:
 
@@ -35,7 +41,7 @@ Dictionaries: http://chris35wills.github.io/courses/Intermediate_python/dictiona
 ### Functions
 
 Are we familiar with these? If not:
-http://chris35wills.github.io/courses/Intermediate_python/modules/
+http://chris35wills.github.io/courses/Intermediate_python/functions/
 
 
 ### Packages/classes/modules
@@ -44,8 +50,7 @@ Cover imports and 'dot' notation
 
 Cover imports `as`
 
-
-### argparse
+Writing your own modules: http://chris35wills.github.io/courses/Intermediate_python/modules/
 
 
 ### numpy
