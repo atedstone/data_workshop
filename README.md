@@ -38,6 +38,12 @@ Lists: http://chris35wills.github.io/courses/Intermediate_python/lists/
 
 Dictionaries: http://chris35wills.github.io/courses/Intermediate_python/dictionaries/
 
+An example of dictionaries in use:
+
+https://github.com/atedstone/ebmodel/blob/master/run_ebmodel_Samplemet.py
+
+This script runs a glacier surface energy balance model for some timesteps. It uses two dictionaries to store (1) the energy fluxes and (2) the melt fluxes. Each of these two dictionaries uses date/time keys to store the data for each timestep. Each timestep contains a nested dictionary with the fluxes for that timestep.
+
 
 ### Functions
 
@@ -118,6 +124,12 @@ Beyond the scope of today. In particular, look at:
 * scikit-image (for raster data)
 * cartopy (map plotting)
 
+
+### Python Style Guide
+
+https://www.python.org/dev/peps/pep-0008
+
+Describes how to lay out code so that it is readable and maintainable - 'best practises'.
 
 
 ## Unix
