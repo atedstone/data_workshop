@@ -125,7 +125,7 @@ Sample data: https://www.dropbox.com/sh/ztxewjjmya3t246/AAAV2rYIiN8mqCV8M-WJOc4G
 First you may want to take a look at the contents of the file. Use the `ncdump` command at the command line (or other visual options like Panopoly can be downloaded from elsewhere):
 
 ```bash
-$ ncdump -h KAN_M_hour_v03.nc
+$ ncdump -h MOD10A1.2000.006.MAR_GRo.nc
 ```
 
 
@@ -149,11 +149,20 @@ Describes how to lay out code so that it is readable and maintainable - 'best pr
 
 ## Unix
 
+Good starting point for a full tutorial: 
+
+http://swcarpentry.github.io/shell-novice
+
+
 ### Logging on to a server
 
 Use PuTTY to open an SSH ('Secure Shell') session. You will need an account, for example on the UniFr beo cluster.
 
 Files can be transferred between the server and your computer using SCP ('Secure Copy Protocol'). This can either be done on the command line or using a client such as FileZilla, https://filezilla-project.org/ or WinSCP, https://winscp.net/eng/download.php.
+
+To open graphical windows such as figure plots, matlab etc you will also need to install the XMing client onto your computer and configure your PuTTY installation to use it:
+
+http://laptops.eng.uci.edu/software-installation/using-linux/how-to-configure-xming-putty
 
 
 ### .bashrc and bash scripts
@@ -220,22 +229,21 @@ Then
 
 Differentiate between login and compute nodes.
 
-Discuss how data storage is laid out.
-
 
 
 
 ## Git
 
 http://chris35wills.github.io/courses/Intro_github/README/
-http://swcarpentry.github.io/git-novice/guide/index.html
-Git and Github are not the same thing!
 
+http://swcarpentry.github.io/git-novice/guide/index.html
+
+Git and Github are not the same thing! Git is the version control software which you install on your computer. GitHub is a web service which runs Git. You can push local repositories up to GitHub and clone/pull repositories from GitHub onto your computer.
 
 
 ## Data management
 
-https://datatree.org.uk/
+A course about proper scientific data management: https://datatree.org.uk/
 
 For CASSANDRA people: `switchdrive/computing_info.md`
 
@@ -275,7 +283,7 @@ Raw, as-collected files must be preserved exactly as the data were downloaded fr
 There may be multiple post-processed formats. All post-processed files must contain adequate metadata to enable lineage to be traced back to the original raw data files.
 
 
-## GDAL/OGR
+## A note on GDAL/OGR
 
 http://www.gdal.org.  A comprehensive set of tools/utilities for working with georeferenced raster and vector data, mainly on the command line.
 
@@ -284,37 +292,12 @@ A package to use GDAL/OGR from within Python scripts is available (also known as
 A few years ago I wrote a package called georaster which uses GDAL to simplify use of GDAL in Python. http://georaster.readthedocs.io.
 
 
-## People
 
-* Nicolas
-* Nicole
-* Tamara
-* Dominik
-* Marlene
-* Christin
-
-
-## Other useful resources
+## Main useful resources
 
 https://software-carpentry.org/
+
 http://chris35wills.github.io/courses/
 
 
-## To do
 
-### data
-
-Some netcdf files, e.g. MAR model outputs or perhaps albedo
-
-### examples needed
-
-* argparse
-* generic file opening
-* data structures:
-    - tuples
-    - lists
-    - dicts
-    - (arrays)
-
-
-KAN_M data example ...
